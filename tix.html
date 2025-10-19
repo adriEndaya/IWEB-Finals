@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tix | eventiX</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+    <div class="logo">eventiX</div>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="events.html">Events</a>
+        <a href="movies.html">Movies</a>
+        <a href="tix.html" class="active">Tix</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<section class="book">
+  <h1>Book Your Tickets</h1>
+  <p>Select an event or movie and secure your spot today.</p>
+</section>
+
+
+<section id="ticket-section">
+    <form class="form-box">
+        <label>Choose Category</label>
+        <select>
+            <option>Concert</option>
+            <option>Movie</option>
+            <option>Festival</option>
+        </select>
+
+        <label>Event/Movie Name</label>
+        <input type="text" placeholder="Enter name">
+
+        <label>Number of Tickets</label>
+        <input type="number" min="1" placeholder="e.g. 2">
+
+        <button type="submit" class="btn">Book Now</button>
+    </form>
+</section>
+
+<section id="tix" class="fade-section">
+
+  <div class="ticket-table">
+    <h3>TICKET OUTLET</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Category</th>
+          <th>Outlet</th>
+          <th>Location</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Mall Outlet</td>
+          <td>SM Tickets</td>
+          <td>SM Mall of Asia, SM North EDSA, SM Megamall, SM Pampanga, SM Clark + nationwide SM branches</td>
+        </tr>
+        <tr>
+          <td>Ticket Services</td>
+          <td>TicketNet</td>
+          <td>Araneta Coliseum + select malls nationwide</td>
+        </tr>
+        <tr>
+          <td>Cinema Counters</td>
+          <td>Ayala Cinemas (SureSeats)</td>
+          <td>Greenbelt, Glorietta, Trinoma, Ayala Malls nationwide</td>
+        </tr>
+        <tr>
+          <td>Convenience Stores</td>
+          <td>7-Eleven (CLiQQ kiosks)</td>
+          <td>Nationwide Branches</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<footer class="footer">
+  <p>&copy; 2025 EventiX. All rights reserved.</p>
+</footer>
+</body>
+</html>
