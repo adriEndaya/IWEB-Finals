@@ -1,51 +1,54 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Events | eventiX</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>eventiX — Events</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<header>
-    <div class="logo">eventiX</div>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="events.html" class="active">Events</a>
-        <a href="movies.html">Movies</a>
-        <a href="tix.html">Tix</a>
-        <a href="contact.html">Contact</a>
-    </nav>
-</header>
+  <div class="container">
+    <header class="header">
+      <div class="brand"><div class="logo">eventiX</div></div>
+      <div class="site-actions">
+        <input id="menu-toggle-2" class="menu-toggle" type="checkbox" />
+        <label for="menu-toggle-2" class="hamburger">Menu ☰</label>
+        <nav class="menu-panel">
+          <a href="index.html">Main</a>
+          <a href="events.html">Events</a>
+          <a href="movies.html">Movies</a>
+          <a href="tickets.html">Tix</a>
+          <a href="contact.html">Contact</a>
+          <a href="message.html">Message</a>
+        </nav>
+        <nav class="nav">
+          <a href="index.html">Main</a>
+          <a href="events.html">Events</a>
+          <a href="movies.html">Movies</a>
+          <a href="tickets.html">Tix</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+    </header>
 
-<section id="home" class="hero-events fade-section">
-  <div class="hero-content">
-    <h2>Upcoming Events</h2>
-    <p>Discover concerts, festivals, and exclusive experiences.</p>
-  </div>
-</section>
-
-<section class="card-grid">
-    <div class="card">
-        <img src="tyler.jpg" alt="Tyler the Creator">
-            <h3>CHROMAKOPIA World Tour</h3>
-            <p>“A world tour bursting with energy, emotion, and creativity — CHROMAKOPIA defines Tyler, The Creator’s boldest era yet.</p>
+    <section class="section">
+      <h3 style="color:#fff;">Upcoming Events</h3>
+      <div class="grid" style="margin-top:12px;">
+        <div class="card">
+          <div class="card-img"><img src="https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=600&q=60" alt=""></div>
+          <h4>FIVB • Volleyball</h4>
         </div>
         <div class="card">
-            <img src="twice.jpg" alt="Twice World Tour">
-            <h3>TWICE THIS IS FOR</h3>
-            <p>From the heart to the stage, TWICE delivers — This Is For the world.</p>
+          <div class="card-img"><img src="https://upload.wikimedia.org/wikipedia/en/8/85/Igor_%28Tyler%2C_the_Creator_album%29.png" alt=""></div>
+          <h4>Tyler • Chromakopia</h4>
         </div>
-    <div class="card">
-        <img src="ivos.jpg" alt="IVOS">
-        <h3>IV of Spades </h3>
-    <p>Live at MOA Arena</p>
-    </div>
-</section>
+        <div class="card">
+          <div class="card-img"><img src="https://images.unsplash.com/photo-1518972559570-8b7d6d1b5b3e?auto=format&fit=crop&w=600&q=60" alt=""></div>
+          <h4>TWICE • Tour</h4>
+        </div>
+      </div>
+    </section>
 
-<footer class="footer">
-  <p>&copy; 2025 EventiX. All rights reserved.</p>
-</footer>
+    <footer class="footer">© 2025 eventiX — demo</footer>
+  </div>
 </body>
 </html>

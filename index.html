@@ -1,54 +1,52 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>eventiX</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>eventiX — Main</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<header>
-    <div class="logo">eventiX</div>
-    <nav>
-        <a href="index.html" class="active">Home</a>
-        <a href="events.html">Events</a>
-        <a href="movies.html">Movies</a>
-        <a href="tix.html">Tix</a>
-        <a href="contact.html">Contact</a>
-    </nav>
-</header>
-<section id="home" class="hero fade-section">
-  <div class="hero-content">
-        <h1>Experience Events Like Never Before</h1>
-        <p>Find tickets to your favorite concerts, movies, and shows.</p>
-        <a href="events.html" button class="btn">Explore Now</button></a>
-    </div>
-</section>
+  <div class="container">
+    <header class="header">
+      <div class="brand">
+        <div class="logo">eventiX</div>
+      </div>
+      <div class="site-actions">
+        <input id="menu-toggle-1" class="menu-toggle" type="checkbox" />
+        <label for="menu-toggle-1" class="hamburger">Menu ☰</label>
+        <nav class="menu-panel">
+          <a href="index.html">Main</a>
+          <a href="events.html">Events</a>
+          <a href="movies.html">Movies</a>
+          <a href="tix.html">Tix</a>
+          <a href="contact.html">Contact</a>
+          <a href="message.html">Message</a>
+        </nav>
+        <nav class="nav">
+          <a href="index.html">Main</a>
+          <a href="events.html">Events</a>
+          <a href="movies.html">Movies</a>
+          <a href="tix.html">Tix</a>
+          <a href="contact.html">Contact</a>
+          <a href="message.html">Message</a>
+          <a href="#" style="background:#fff;color:#000;padding:6px 8px;border-radius:4px;">Sign In</a>
+        </nav>
+      </div>
+    </header>
 
-<section id="featured">
-    <h2>Featured Events</h2>
-    <div class="card-grid">
-        <div class="card">
-            <img src="tyler.jpg" alt="Tyler the Creator">
-            <h3>CHROMAKOPIA World Tour</h3>
-            <p>“A world tour bursting with energy, emotion, and creativity — CHROMAKOPIA defines Tyler, The Creator’s boldest era yet.</p>
-        </div>
-        <div class="card">
-            <img src="twice.jpg" alt="Twice World Tour">
-            <h3>TWICE THIS IS FOR</h3>
-            <p>From the heart to the stage, TWICE delivers — This Is For the world.</p>
-        </div>
-        <div class="card">
-            <img src="demon.jpg" alt="Demon Slayer">
-            <h3>Demon Slayer: Infinity Castle</h3>
-            <p>Catch the newest Demon Slayer movie in theaters now.</p>
-        </div>
-    </div>
-</section>
+    <!-- keep main content similar to single page but shorter -->
+    <section class="section">
+      <h1 style="font-size:20px;color:#fff;">Find the Hottest Events Near You!</h1>
+      <p style="color:#bdbdbd;">Featured events & highlights</p>
+      <div style="display:flex; gap:12px; margin-top:12px;">
+        <div class="poster"><img src="https://upload.wikimedia.org/wikipedia/en/8/85/Igor_%28Tyler%2C_the_Creator_album%29.png" alt=""></div>
+        <div class="poster"><img src="https://images.unsplash.com/photo-1515165562835-cb8a94a3c226?auto=format&fit=crop&w=200&q=60" alt=""></div>
+        <div class="poster"><img src="https://images.unsplash.com/photo-1515548218883-20d58a3e6cf7?auto=format&fit=crop&w=200&q=60" alt=""></div>
+      </div>
+    </section>
 
-<footer class="footer">
-  <p>&copy; 2025 EventiX. All rights reserved.</p>
-</footer>
+    <footer class="footer">© 2025 eventiX — demo</footer>
+  </div>
 </body>
 </html>
